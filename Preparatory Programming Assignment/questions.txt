@@ -1,1 +1,42 @@
+I)
+Develop an application (using C & Command Line Arguments) for:
+i) Simulate the behavior of cp command in linux. (you should not invoke cp
+command from your C source!). Also your application should validate right
+usage; if less or more number of arguments are passed to the executable the
+program should prompt a message to the user. File read and write function
+calls are allowed. Rename your executable as mycopy.
+Example usage cud be ./mcyopy fact.c factcopy.c
 
+ii) Extra Credits Qn – Extend the above application / develop an application to
+simulate the behavior of rm command in linux. rm command invoke from
+Source is not allowed! Other features as in earlier application to be supported.
+
+II )
+Develop an application (using C & Command Line Arguments) for:
+i) Sort an array of varying number of integers in ascending or descending order.
+The array and array size are passed at command line. Invoke of linux command
+sort is not allowed. Use of atoi or itoa fns is allowed (need you should read online
+resources!). Let your program handle invalid usages as well!
+Eg. ./mysort 5 1 50 40 30 20 1 here 5 is array size and 1 means ascending order
+sort and the rest of the input is the array to be sorted. Your code should handle
+descending order sort as well.
+Extra Credits Qn: (I wud advise everbody to try!)
+Can you implement the above sorting (both ascending or descending) using only
+function internally for sorting logic ( I mean bubble or insertion etc..)You should
+define the logic in your source code only once but the application should be able
+to handle both ascending or descending order sort!). Hint use function pointers!
+
+III ) 
+Develop an application (using function overloading & command line
+arguments in C) for:
+a) Sorting an array of integers or floating point or characters passed at command
+line. Usage syntax you can follow a similar style as for the II question and also
+support validation logic in the code.
+Read on function overloading – more than one function can carry the same name
+with different parameters!
+
+IV ) Develop an application (using function templates & command line
+arguments in C) for:
+Same as above but you should define sort function only once internally and leave
+it to the compiler to generate data type specific functions. Clue is to use function
+templates feature in C. Read on it more!
