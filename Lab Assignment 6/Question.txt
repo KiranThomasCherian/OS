@@ -1,1 +1,18 @@
-
+MULTITHREADING
+(Q.1,2,3 & 9 are from previous fork assignment questions which are to be implemented
+in multithreaded fashion)
+1. Generate Armstrong number generation within a range.
+2. Ascending Order sort and Descending order sort.
+3. Implement a multithreaded version of binary search. By default, you can implement a search
+for the first occurrence and later extend to support multiple occurrence (duplicated elements
+search as well)
+4.Generation of Prime Numbers upto a limit supplied as Command Line Parameter.
+5. Computation of Mean, Median, Mode for an array of integers.
+6. Implement Merge Sort and Quick Sort in a multithreaded fashion.
+7. Estimation of PI Value using Monte carlo simulation technique (refer the internet for the
+method..) using threads.
+Optional:
+8. Computation of a Matrix Inverse using Determinant, Cofactor threads, etc.
+9. Read upon efficient ways of parallelizing the generation of Fibonacci series and apply the
+logic in a multithreaded fashion to contribute a faster version of fib series generation.
+10. Longest common sub sequence generation problem using threads.
