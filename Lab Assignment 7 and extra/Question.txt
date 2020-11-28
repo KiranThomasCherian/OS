@@ -1,0 +1,25 @@
+LAB ASSIGNMENT 7
+1. Simulate the Producer Consumer code discussed in the class.
+2. Extend the producer consumer simulation in Q1 to sync access of critical data using Petersons
+algorithm.
+3. Dictionary Problem: Let the producer set up a dictionary of at least 20 words with three attributes
+(Word, Primary meaning, Secondary meaning) and let the consumer search for the word and retrieve
+its respective primary and secondary meaning.
+Note: This can be implemented using either Mutex locks or Petersons algorithm.
+
+Non-Mandatory (Extra credits):
+4. Extend Q3 to avoid duplication of dictionary entries and implement an efficient binary search on the
+consumer side in a multithreaded fashion.
+5. Trace and understand the working of synchronization algorithms like Dijkstra, Dekker’s algorithm
+
+----------------------------------------------------------------
+
+Remaining Extra:
+(A) Implement the Dining Philosophers and Reader Writer Problem of Synchronization (test drive the codes discussed in the class).
+(B) Choose any 2 of the following problems whose details are available in the Downy Book on Semaphores ( attached) and implement semaphores based solutions to the same. 
+
+(1)Santa Claus Problem
+(2) H2O Problem
+(3) Baboon Crossing Problem
+(4) Dining Hall Problem
+(5) Senate Bus Problem
